@@ -6,11 +6,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    
+    <div style="background: #eee; width: 70%; padding: 12px;">
+      <input class="messages">
+    </div>
     <canvas id="myCanvas"></canvas>
 
     <script type="text/javascript" src="bubbles.js"></script>
     <script type="text/javascript">
-    drawName('EmmsDan Inc');
+      let message = document.querySelector('.messages');
+    message.addEventListener('keyup', ()=>{
+      drawName(message);
+    }
 
 // The code below will allow you to interact with the letters
 bounceBubbles();

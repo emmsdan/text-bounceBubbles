@@ -5,7 +5,7 @@
 .footer {
   font-family: Helvetica, sans-serif;
   height: 100px;
-  width: 100%;
+  width: 90%;
   position: fixed;
   bottom: 0px;
   display: flex;
@@ -19,14 +19,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgb(32, 64, 86);
-  color: rgb(32, 64, 86);
+  border: 2px solid rgb(32, 64, 186);
+  color: rgb(132, 64, 86);
   transition: background-color 0.2s, color 0.2s;
 }
 
 .button:hover {
   cursor: pointer;
-  background-color: rgb(32, 64, 86);;
+  background-color: rgb(32, 164, 86);;
   color: white;
   transition: background-color 0.2s, color 0.2s;
 }

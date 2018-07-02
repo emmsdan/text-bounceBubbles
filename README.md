@@ -1,6 +1,7 @@
 # text-bounceBubbles
 
  Bounce bubbles when mouse interact with Text
+ ## here is a test version (https://emmsdan.github.com/text-bounceBubbles)
 
 ## HOW TO USE
   

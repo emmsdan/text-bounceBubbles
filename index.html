@@ -16,10 +16,12 @@
     <script type="text/javascript">
       let message = document.querySelector('.messages');
     message.addEventListener('keyup', ()=>{
-      drawName(message.value);
       // The code below will allow you to interact with the letters
 bounceBubbles();
     });
+      window.addEventListener('load', () => {
+            drawName(message.value || 'My Name is EmmsDan');
+      })
     </script>
   </body>
 </html>

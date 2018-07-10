@@ -7,22 +7,14 @@
   </head>
   <body>
     
-    <div style="background: #eee; width: 70%; padding: 12px;">
-      <h4> Clear the Field and Type the </h4>
-      <input class="messages" placeholder="Start Typing" value="My Name is EmmsDan">
-    </div>
     <canvas id="myCanvas"></canvas>
 
     <script type="text/javascript" src="bubbles.js"></script>
     <script type="text/javascript">
-      let message = document.querySelector('.messages');
-    message.addEventListener('keyup', ()=>{
       // The code below will allow you to interact with the letters
 bounceBubbles();
-    });
-      window.addEventListener('load', () => {
-            drawName(message.value || 'My Name is EmmsDan');
-      })
-    </script>
+    
+      drawName('I am EmmsDan');
+      </script>
   </body>
 </html>
